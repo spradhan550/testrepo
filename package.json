@@ -1,0 +1,17 @@
+{
+  "name": "testrepo",
+  "version": "1.0.0",
+  "description": "DevOps refers to the combination of software development (Dev) and IT operation (Ops). The primary objective is to reduce the system development life cycle as well as provide features, corrections and updates as often as possible and as business requirements demand.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "build": "echo \"build step - copy your static files to ./build\" && mkdir -p build && cp -r index.html build/",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
